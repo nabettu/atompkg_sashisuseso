@@ -1,14 +1,15 @@
 {
   "name": "sashisuseso",
   "main": "./lib/sashisuseso",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Package of good feeling your cording by woman's voice.",
   "keywords": [
+    "voice"
   ],
   "activationCommands": {
     "atom-workspace": "sashisuseso:toggle"
   },
-  "repository": "https://github.com/atom/sashisuseso",
+  "repository": "https://github.com/nabettu/atompkg_sashisuseso",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

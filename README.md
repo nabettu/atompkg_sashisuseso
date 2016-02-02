@@ -1,5 +1,22 @@
 # sashisuseso package
 
-A short description of your package.
+キーボードでEnterを押す度に女性の声で”合コンさしすせそ”なる
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+* さすが〜
+* しびれる〜
+等の、褒め称えてくれる内容の音声が再生されます。
+
+##こんな時に
+
+* コーディングの能率アップに
+* クソコードをリファクタリングしなくちゃならないときに
+* プログラミングの面白さが全然わから無くなってしまったときに
+* 彼女に振られた夜に
+* 二日酔いに
+* なんか人生つまんねぇなって時に
+
+##音声について
+
+ままはっく
+http://mama-hack.com
+を運営するまなしばさんにご協力頂きました。

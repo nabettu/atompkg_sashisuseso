@@ -1,6 +1,7 @@
 {CompositeDisposable} = require 'atom'
 
 module.exports = Sashisuseso =
+    active: false
 
     activate: (state) ->
         @subscriptions = new CompositeDisposable
@@ -22,8 +23,10 @@ module.exports = Sashisuseso =
             @audios[i].autoplay = false
 
     onChange: (e) ->
+        return if not @active
         if e.newText is "\n"
             @audios[Math.floor(Math.random() * 5)].play()
 
     toggle: ->
+        @active = not @active
         console.log 'Sashisuseso was toggled!'
