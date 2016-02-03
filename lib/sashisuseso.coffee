@@ -15,6 +15,7 @@ module.exports = Sashisuseso =
 
     setup: ->
         @editor = atom.workspace.getActiveTextEditor()
+        return unless @editor
         @editorChangeSubscription?.dispose()
         @editorChangeSubscription = @editor.getBuffer().onDidChange @onChange.bind(this)
 
