@@ -1,7 +1,7 @@
 {
   "name": "sashisuseso",
   "main": "./lib/sashisuseso",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Package of good feeling your cording by woman's voice.",
   "keywords": [
     "voice"
